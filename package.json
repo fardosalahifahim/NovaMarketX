@@ -1,13 +1,13 @@
 {
-  "name": "animespring",
+  "name": "nova-market-x",
   "version": "1.0.0",
   "private": true,
-  "description": "Frontend application for Prime Gadget Zone e-commerce platform",
+  "description": "Frontend application for Nova Market X e-commerce platform",
   "author": "",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/primegadgetzone-frontend.git"
+    "url": "https://github.com/fardosalahifahim/NovaMarketX.git"
   },
   "engines": {
     "node": ">=14.0.0",
