@@ -1,0 +1,299 @@
+/* Admin Orders Table Styles - Professional Premium Black Theme */
+
+.admin-orders-section {
+  padding: 20px;
+  background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+  color: #ffffff;
+}
+
+.admin-orders-section h1 {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.5em;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  font-weight: 700;
+}
+
+.admin-filter-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.admin-filter-container label {
+  font-weight: bold;
+  margin-right: 10px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.admin-filter-container select {
+  padding: 10px 15px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  background: #1a1a1a;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.admin-filter-container select:hover {
+  border-color: #666;
+}
+
+.admin-filter-container select:focus {
+  outline: none;
+  border-color: #999;
+  box-shadow: 0 0 10px rgba(255,255,255,0.1);
+}
+
+.admin-orders-table-container {
+  overflow-x: auto;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+  border-radius: 15px;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+  border: 1px solid #333;
+}
+
+.admin-orders-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 14px;
+  background: transparent;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.admin-orders-table th {
+  background: linear-gradient(135deg, #000000 0%, #333333 100%);
+  color: #ffffff;
+  padding: 18px;
+  text-align: center;
+  font-weight: 700;
+  border: 1px solid #444;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+
+.admin-orders-table th:nth-child(1) { /* Products */
+  width: 20%;
+}
+
+.admin-orders-table th:nth-child(2) { /* Shipping Details */
+  width: 25%;
+}
+
+.admin-orders-table th:nth-child(3) { /* Order ID */
+  width: 6%;
+}
+
+.admin-orders-table th:nth-child(4) { /* Status */
+  width: 6%;
+}
+
+.admin-orders-table th:nth-child(5) { /* Items & Total */
+  width: 8%;
+}
+
+.admin-orders-table th:nth-child(6) { /* Payment Method */
+  width: 8%;
+}
+
+.admin-orders-table th:nth-child(7) { /* Actions */
+  width: 12%;
+}
+
+.admin-orders-table td {
+  padding: 18px;
+  border: 1px solid #333;
+  text-align: center;
+  vertical-align: top;
+  word-wrap: break-word;
+  color: #ffffff;
+}
+
+.admin-order-table-row {
+  transition: all 0.3s ease;
+}
+
+.admin-order-table-row:hover {
+  background: linear-gradient(135deg, #2a2a2a 0%, #3a3a3a 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+.admin-beautiful-row {
+  background: transparent;
+}
+
+.admin-canceled-row {
+  background: linear-gradient(135deg, #2a1a1a 0%, #3a2a2a 100%);
+}
+
+.admin-delivered-row {
+  background: linear-gradient(135deg, #1a2a1a 0%, #2a3a2a 100%);
+}
+
+.admin-product-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.admin-product-list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  padding: 12px;
+  background: linear-gradient(135deg, #2a2a2a 0%, #3a3a3a 100%);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  border: 1px solid #444;
+}
+
+.admin-product-image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 12px;
+  border: 2px solid #555;
+}
+
+.admin-product-info {
+  flex: 1;
+  text-align: left;
+}
+
+.admin-product-name {
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 4px;
+}
+
+.admin-product-id {
+  color: #cccccc;
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.admin-product-price {
+  color: #ffd700;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.admin-product-quantity {
+  color: #87ceeb;
+  font-weight: 600;
+}
+
+.admin-shipping-details {
+  text-align: left;
+  background: linear-gradient(135deg, #2a2a2a 0%, #3a3a3a 100%);
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  border: 1px solid #444;
+}
+
+.admin-shipping-details div {
+  margin-bottom: 6px;
+  color: #ffffff;
+}
+
+.admin-shipping-details strong {
+  color: #cccccc;
+}
+
+.admin-btn-cancel {
+  background: linear-gradient(135deg, #8b0000 0%, #a00000 100%);
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+
+.admin-btn-cancel:hover {
+  background: linear-gradient(135deg, #a00000 0%, #c00000 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(139,0,0,0.3);
+}
+
+.admin-beautiful-btn {
+  background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+  color: #000000;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+
+.admin-beautiful-btn:hover {
+  background: linear-gradient(135deg, #ffed4e 0%, #ffff99 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(255,215,0,0.3);
+}
+
+.admin-status-canceled {
+  color: #ff6b6b;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.admin-status-delivered {
+  color: #51cf66;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .admin-orders-table {
+    font-size: 12px;
+  }
+
+  .admin-orders-table th,
+  .admin-orders-table td {
+    padding: 12px;
+  }
+
+  .admin-product-list-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .admin-product-image {
+    margin-bottom: 10px;
+  }
+
+  .admin-product-info {
+    text-align: center;
+  }
+
+  .admin-orders-section h1 {
+    font-size: 2em;
+  }
+}

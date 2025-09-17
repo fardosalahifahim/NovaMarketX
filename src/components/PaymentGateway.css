@@ -1,0 +1,130 @@
+.payment-gateway-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #6a0dad; /* purple theme background for desktop */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(106, 13, 173, 0.5);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #f0e6ff; /* light purple text */
+  transition: background-color 0.3s ease;
+}
+
+.payment-gateway-container h2 {
+  margin-bottom: 24px;
+  color: #f0e6ff;
+  font-weight: 700;
+  font-size: 1.8rem;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+}
+
+.payment-methods {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.payment-methods button {
+  background-color: #7b1fa2;
+  background-image: linear-gradient(315deg, #7b1fa2 0%, #9c27b0 74%);
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  font-size: 1.2rem;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  min-width: 140px;
+  box-shadow: 0 4px 10px rgba(156, 39, 176, 0.6);
+}
+
+.payment-methods button.selected {
+  background-color: #ff6f00;
+  background-image: linear-gradient(315deg, #9900ff 0%, #ff3c00 74%);
+  box-shadow: 0 6px 14px rgba(255, 111, 0, 0.8);
+  color: white;
+  transform: translateY(-2px);
+}
+
+.payment-methods button:hover {
+  background-color: #9c27b0;
+  background-image: linear-gradient(315deg, #9c27b0 0%, #7b1fa2 74%);
+  box-shadow: 0 6px 14px rgba(156, 39, 176, 0.8);
+  transform: translateY(-2px);
+}
+
+/* Mobile styles: orange theme similar to SearchBar */
+@media (max-width: 768px) {
+  .payment-gateway-container {
+     background-color: #ecb163 !important;
+  }
+  .payment-methods {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .payment-methods button {
+    background-color: white;
+    color: #000;
+    border-radius: 50px;
+    padding: 14px 28px;
+    font-size: 1.1rem;
+    min-width: 120px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+  }
+.payment-methods button.selected {
+  background-color: #ff6f00 !important;
+  color: white !important;
+  box-shadow: 0 6px 14px rgba(255, 111, 0, 0.8);
+  transform: translateY(-2px);
+}
+  .payment-methods button:hover {
+    background-color: #ffddb0 !important;
+    color: white;
+    box-shadow: 0 6px 16px rgba(255, 143, 0, 0.9);
+    transform: translateY(-2px);
+  }
+  .payment-gateway-container h2 {
+    color: #000;
+    font-size: 1.6rem;
+  }
+
+  .payment-methods button.selected {
+    background-color: #fff8e1;
+    color: #ff6f00;
+    box-shadow: 0 6px 14px rgba(255, 111, 0, 0.8);
+    transform: translateY(-2px);
+  }
+
+  .payment-gateway-container h2 {
+    color: #fff8e1;
+    font-size: 1.6rem;
+    text-shadow: 0 0 6px rgba(255, 255, 255, 0.8);
+  }
+
+  .payment-methods {
+    gap: 12px;
+  }
+
+  .payment-methods button {
+    background-color: #ff6f00;
+    background-image: linear-gradient(315deg, #ff6f00 0%, #ff8f00 74%);
+    color: white;
+    border-radius: 50px;
+    padding: 14px 28px;
+    font-size: 1.1rem;
+    min-width: 120px;
+    box-shadow: 0 4px 12px rgba(255, 111, 0, 0.7);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+  }
+
+  .payment-methods button:hover {
+    background-color: #fcdfba !important;
+    background-image: linear-gradient(315deg, #ae00ff 0%, #fa8023 74%);
+    box-shadow: 0 6px 16px rgba(255, 143, 0, 0.9);
+    transform: translateY(-2px);
+  }
+}

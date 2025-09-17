@@ -1,0 +1,94 @@
+.banner-form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.banner-form-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+  box-shadow: 0 4px 15px rgba(102, 51, 153, 0.3);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.banner-form-container h2 {
+  margin-bottom: 20px;
+  color: #6a0dad;
+  text-align: center;
+}
+
+.banner-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #4a148c;
+}
+
+.banner-form input[type="text"],
+.banner-form input[type="file"],
+.banner-form textarea,
+.banner-form select {
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 4px;
+  margin-bottom: 15px;
+  border: 1px solid #b39ddb;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  resize: vertical;
+}
+
+.banner-form textarea {
+  min-height: 80px;
+}
+
+.banner-form-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-save {
+  background-color: #7b1fa2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 700;
+  transition: background-color 0.3s ease;
+}
+
+.btn-save:hover {
+  background-color: #4a148c;
+}
+
+.btn-cancel {
+  background-color: #ccc;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn-cancel:hover {
+  background-color: #999;
+}
+
+.required {
+  color: red;
+  margin-left: 2px;
+}
