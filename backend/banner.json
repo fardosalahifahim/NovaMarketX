@@ -1,0 +1,34 @@
+[
+  {
+    "id": 2,
+    "title": "Explore Anime",
+    "description": "Dive into the world of anime and discover your favorites!",
+    "imageUrl": "http://localhost:5000/uploads/1757354997572-658810222.jpg",
+    "buttonText": "Discover Now",
+    "tags": [
+      "anime"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Naruto Adventures",
+    "description": "Join Naruto and friends on their epic journey!",
+    "imageUrl": "http://localhost:5000/uploads/1755876160862-979440466.png",
+    "buttonText": "Join the Adventure",
+    "tags": [
+      "itachi",
+      "naruto",
+      "anime"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Your Next Favorite",
+    "description": "Find your next favorite anime series today!",
+    "imageUrl": "http://localhost:5000/uploads/1756067968603-428787359.jpeg",
+    "buttonText": "Start Watching",
+    "tags": [
+      "anime"
+    ]
+  }
+]

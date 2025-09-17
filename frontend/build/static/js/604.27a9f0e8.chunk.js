@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkanimespring=self.webpackChunkanimespring||[]).push([[604],{5604:(e,n,s)=>{s.r(n),s.d(n,{default:()=>t});s(5043);var i=s(579);const t=()=>(0,i.jsxs)("section",{className:"profile-section payment-options",children:[(0,i.jsx)("h3",{children:"My Payment Options"}),(0,i.jsx)("p",{children:"Payment options content goes here."})]})}}]);
+//# sourceMappingURL=604.27a9f0e8.chunk.js.map

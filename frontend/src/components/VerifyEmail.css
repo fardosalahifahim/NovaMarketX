@@ -1,0 +1,60 @@
+.verify-email-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 30px;
+  background: linear-gradient(135deg, #ffcc99, #ffffff, #9c27b0);
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(123, 31, 162, 0.7);
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.verify-email-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px #9c27b0;
+}
+
+.verify-email-container p {
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.success-message {
+  color: #c8e6c9;
+  background-color: #388e3c;
+  padding: 8px 15px;
+  border-radius: 10px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.error-message {
+  color: #ffbaba;
+  background-color: #d32f2f;
+  padding: 8px 15px;
+  border-radius: 10px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.resend-btn, .login-btn {
+  background: linear-gradient(135deg, #9c27b0, #7b1fa2);
+  border: none;
+  color: white;
+  font-weight: 700;
+  padding: 12px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 8px 25px rgba(156, 39, 176, 0.8);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin: 10px;
+}
+
+.resend-btn:hover, .login-btn:hover {
+  background: linear-gradient(135deg, #7b1fa2, #9c27b0);
+  transform: scale(1.05);
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "id": 3,
+    "content": "gg",
+    "senderId": "animespring",
+    "receiverId": "1",
+    "timestamp": "2025-08-04T04:08:39.684Z"
+  },
+  {
+    "id": 4,
+    "content": "da",
+    "senderId": "animespring",
+    "receiverId": "1",
+    "timestamp": "2025-08-04T04:08:49.821Z"
+  },
+  {
+    "id": 2,
+    "content": "hi",
+    "senderId": "animespring",
+    "receiverId": "1",
+    "timestamp": "2025-08-04T04:15:39.487Z"
+  }
+]

@@ -1,0 +1,133 @@
+{
+  "userFavorites": {
+    "no1cOZZhD1RChRPI1IH5FmiVIm03": [
+      {
+        "id": "965771",
+        "name": "tshirt ",
+        "description": "this is product ",
+        "price": 199,
+        "stock": 52,
+        "status": "Active",
+        "imageUrl": "http://localhost:5000/uploads/1755899712426-563517614.jpg",
+        "images": [
+          "http://localhost:5000/uploads/1755899654998-276987575.jpg",
+          "http://localhost:5000/uploads/1755899658534-405348973.png"
+        ],
+        "videos": [
+          "https://www.youtube.com/watch?v=Ej7eIV8XADA"
+        ],
+        "tags": [
+          "tshirt"
+        ],
+        "categories": [
+          "Fashion"
+        ],
+        "maxBuyers": 6,
+        "maxPerPerson": 19,
+        "previousPrice": 299,
+        "tier": "Cheap"
+      },
+      {
+        "id": "114124",
+        "name": "anime2",
+        "description": "asd",
+        "price": 55,
+        "stock": 66,
+        "status": "Active",
+        "imageUrl": "http://localhost:5000/uploads/1751974585972-564865543.png",
+        "tags": [
+          "anime"
+        ],
+        "categories": [
+          "Fashion"
+        ],
+        "images": [],
+        "videos": []
+      },
+      {
+        "id": "328502",
+        "name": "Rolex GMT-Master II \"Pepsi\" 126710BLRO – Oystersteel Jubilee Bracelet",
+        "description": "The Rolex GMT-Master II 126710BLRO, affectionately known as the \"Pepsi,\" is one of the most iconic luxury travel watches ever created. Crafted in robust Oystersteel, it features a striking bi-color red and blue Cerachrom bezel that represents day and night. Equipped with the state-of-the-art Calibre 3285 automatic movement, this timepiece offers dual time zone functionality, a 70-hour power reserve, and superb chronometric precision. Its elegant Jubilee bracelet ensures comfort and timeless style, making it the ultimate companion for world travelers and watch enthusiasts alike.",
+        "price": 199,
+        "stock": 0,
+        "status": "Active",
+        "imageUrl": "http://localhost:5000/uploads/1755877340763-435252643.jpg",
+        "tags": [
+          "Rolex"
+        ],
+        "categories": [
+          "Fashion"
+        ],
+        "images": [],
+        "videos": [],
+        "maxBuyers": 0,
+        "maxPerPerson": 0,
+        "previousPrice": 399,
+        "tier": "Medium",
+        "outOfStockDate": "2025-09-10T13:44:20.355Z"
+      },
+      {
+        "id": "238887",
+        "name": "watch",
+        "description": "watch hasdl",
+        "price": 22,
+        "stock": 25,
+        "status": "Active",
+        "imageUrl": "http://localhost:5000/uploads/1755970871822-777501947.png",
+        "images": [
+          "http://localhost:5000/uploads/1755970871822-777501947.png"
+        ],
+        "videos": [],
+        "tags": [
+          "watch",
+          "girls",
+          "girls watch"
+        ],
+        "categories": [
+          "Fashion"
+        ]
+      },
+      {
+        "id": "461830",
+        "name": "hunter",
+        "description": "asd",
+        "price": 565,
+        "stock": 435,
+        "status": "Active",
+        "imageUrl": "http://localhost:5000/uploads/1751979245849-263985314.jpg",
+        "tags": [
+          "anime"
+        ],
+        "categories": [
+          "Fashion"
+        ],
+        "images": [],
+        "videos": []
+      }
+    ],
+    "3EqVjeOevTgBOxzmNFq0I5vygES2": [
+      {
+        "id": "328502",
+        "name": "Rolex GMT-Master II \"Pepsi\" 126710BLRO – Oystersteel Jubilee Bracelet",
+        "description": "The Rolex GMT-Master II 126710BLRO, affectionately known as the \"Pepsi,\" is one of the most iconic luxury travel watches ever created. Crafted in robust Oystersteel, it features a striking bi-color red and blue Cerachrom bezel that represents day and night. Equipped with the state-of-the-art Calibre 3285 automatic movement, this timepiece offers dual time zone functionality, a 70-hour power reserve, and superb chronometric precision. Its elegant Jubilee bracelet ensures comfort and timeless style, making it the ultimate companion for world travelers and watch enthusiasts alike.",
+        "price": 199,
+        "stock": 1,
+        "status": "Active",
+        "imageUrl": "http://localhost:5000/uploads/1755877340763-435252643.jpg",
+        "tags": [
+          "Rolex"
+        ],
+        "categories": [
+          "Fashion"
+        ],
+        "images": [],
+        "videos": [],
+        "maxBuyers": 1,
+        "maxPerPerson": 1,
+        "previousPrice": 399,
+        "tier": "Medium",
+        "outOfStockDate": "2025-09-07T21:14:52.605Z"
+      }
+    ]
+  }
+}

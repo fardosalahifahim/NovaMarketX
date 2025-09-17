@@ -1,0 +1,29 @@
+[
+  {
+    "productId": "328502",
+    "priority": 10,
+    "title": "Featured Rolex Watch",
+    "description": "Premium luxury timepiece - limited availability",
+    "startDate": "2024-01-01",
+    "endDate": "2024-12-31",
+    "tags": ["luxury", "premium", "featured"]
+  },
+  {
+    "productId": "965771",
+    "priority": 8,
+    "title": "Popular T-Shirt",
+    "description": "Best-selling casual wear",
+    "startDate": "2024-01-01", 
+    "endDate": "2024-12-31",
+    "tags": ["casual", "popular", "featured"]
+  },
+  {
+    "productId": "157341",
+    "priority": 7,
+    "title": "Anime Collection",
+    "description": "Trending anime merchandise",
+    "startDate": "2024-01-01",
+    "endDate": "2024-12-31",
+    "tags": ["anime", "trending", "featured"]
+  }
+]

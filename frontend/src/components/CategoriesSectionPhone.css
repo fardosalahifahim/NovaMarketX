@@ -1,0 +1,93 @@
+.categories-section-phone {
+  padding: 10px 5px;
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
+  max-width: 100vw;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ff6f61;
+  height: auto;
+  overflow-x: hidden;
+  white-space: normal;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 15px;
+  justify-items: center;
+  padding: 10px 0;
+}
+
+.categories-section-phone.white-dark-theme {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  color: #333;
+}
+
+.categories-grid {
+  display: contents;
+}
+
+.category-item-phone {
+  background-color: white;
+  color: #ff6f61;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(255, 111, 97, 0.5);
+  padding: 10px 15px;
+  width: 100%;
+  max-width: 110px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category-item-phone:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(255, 111, 97, 0.7);
+  cursor: pointer;
+}
+
+.category-icon-phone {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 8px;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(255, 111, 97, 0.6);
+  transition: transform 0.3s ease;
+}
+
+.category-icon-phone:hover {
+  transform: scale(1.1);
+}
+
+.category-name-phone {
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin-bottom: 6px;
+  color: #ff6f61;
+  text-shadow: none;
+}
+
+.see-all-button-phone {
+  background-color: #ff6f61;
+  color: white;
+  font-weight: 700;
+  font-size: 0.8rem;
+  padding: 5px 12px;
+  border-radius: 20px;
+  text-decoration: none;
+  box-shadow: 0 6px 20px rgba(255, 111, 97, 0.7);
+  transition: background-color 0.3s ease;
+  user-select: none;
+  cursor: pointer;
+}
+
+.see-all-button-phone:hover {
+  background-color: #ff9a8b;
+}

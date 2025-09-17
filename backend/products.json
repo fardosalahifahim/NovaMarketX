@@ -1,0 +1,425 @@
+[
+  {
+    "id": "563687",
+    "name": "anime",
+    "description": "this is descripiton",
+    "price": 55,
+    "stock": 62,
+    "status": "Active",
+    "imageUrl": "http://localhost:5000/uploads/1751974550956-896705487.jpg",
+    "tags": [
+      "anime"
+    ],
+    "categories": [
+      "Fashion"
+    ],
+    "images": [
+      "http://localhost:5000/uploads/1755893671379-20006574.webp",
+      "http://localhost:5000/uploads/1755894505785-553702139.jpg"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=xIYwa9--Sso&t"
+    ]
+  },
+  {
+    "id": "114124",
+    "name": "anime2",
+    "description": "asd",
+    "price": 55,
+    "stock": 66,
+    "status": "Active",
+    "imageUrl": "http://localhost:5000/uploads/1751974585972-564865543.png",
+    "tags": [
+      "anime"
+    ],
+    "categories": [
+      "Fashion"
+    ],
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "701196",
+    "name": "anime",
+    "description": "asd",
+    "price": 55,
+    "stock": 55,
+    "status": "Active",
+    "imageUrl": "http://localhost:5000/uploads/1751975047223-871716781.jpg",
+    "tags": [
+      "anime"
+    ],
+    "categories": [
+      "Fashion"
+    ],
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "461830",
+    "name": "hunter",
+    "description": "asd",
+    "price": 565,
+    "stock": 435,
+    "status": "Active",
+    "imageUrl": "http://localhost:5000/uploads/1751979245849-263985314.jpg",
+    "tags": [
+      "anime"
+    ],
+    "categories": [
+      "Fashion"
+    ],
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "887162",
+    "name": "anime",
+    "description": "22",
+    "price": 80,
+    "stock": 44,
+    "status": "Active",
+    "imageUrl": "http://localhost:5000/uploads/1752760626497-805579930.webp",
+    "tags": [
+      "1010",
+      "101"
+    ],
+    "categories": [
+      "Fashion"
+    ],
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "860227",
+    "name": "bag",
+    "description": "asefasfw",
+    "price": 80,
+    "stock": 55,
+    "status": "Active",
+    "imageUrl": "http://localhost:5000/uploads/1754178939992-980029817.jpg",
+    "tags": [
+      "bag"
+    ],
+    "categories": [
+      "Fashion"
+    ],
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "979091",
+    "name": "dress",
+    "description": "22",
+    "price": 100,
+    "stock": 55,
+    "status": "Active",
+    "imageUrl": "http://localhost:5000/uploads/1754401483461-421629571.jpg",
+    "tags": [
+      "dress"
+    ],
+    "categories": [
+      "Fashion"
+    ],
+    "images": [],
+    "videos": []
+  },
+  {
+    "id": "328502",
+    "name": "Rolex GMT-Master II \"Pepsi\" 126710BLRO – Oystersteel Jubilee Bracelet",
+    "description": "The Rolex GMT-Master II 126710BLRO, affectionately known as the \"Pepsi,\" is one of the most iconic luxury travel watches ever created. Crafted in robust Oystersteel, it features a striking bi-color red and blue Cerachrom bezel that represents day and night. Equipped with the state-of-the-art Calibre 3285 automatic movement, this timepiece offers dual time zone functionality, a 70-hour power reserve, and superb chronometric precision. Its elegant Jubilee bracelet ensures comfort and timeless style, making it the ultimate companion for world travelers and watch enthusiasts alike.",
+    "price": 199,
+    "stock": 0,
+    "status": "Active",
+    "imageUrl": "http://localhost:5000/uploads/1755877340763-435252643.jpg",
+    "tags": [
+      "Rolex"
+    ],
+    "categories": [
+      "Fashion"
+    ],
+    "images": [],
+    "videos": [],
+    "maxBuyers": 0,
+    "maxPerPerson": 0,
+    "previousPrice": 399,
+    "tier": "Medium",
+    "outOfStockDate": "2025-09-10T13:44:20.355Z"
+  },
+  {
+    "id": "965771",
+    "name": "tshirt ",
+    "description": "this is product ",
+    "price": 199,
+    "stock": 47,
+    "status": "Active",
+    "imageUrl": "http://localhost:5000/uploads/1755899712426-563517614.jpg",
+    "images": [
+      "http://localhost:5000/uploads/1755899654998-276987575.jpg",
+      "http://localhost:5000/uploads/1755899658534-405348973.png"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=Ej7eIV8XADA"
+    ],
+    "tags": [
+      "tshirt"
+    ],
+    "categories": [
+      "Fashion"
+    ],
+    "maxBuyers": 1,
+    "maxPerPerson": 14,
+    "previousPrice": 299,
+    "tier": "Cheap"
+  },
+  {
+    "id": "157341",
+    "name": "anime",
+    "description": "dsf",
+    "price": 34,
+    "stock": 34,
+    "status": "Active",
+    "imageUrl": "http://localhost:5000/uploads/1755899986975-159423028.jpg",
+    "images": [
+      "http://localhost:5000/uploads/1755899986975-159423028.jpg",
+      "http://localhost:5000/uploads/1755899990401-745540161.jpg"
+    ],
+    "videos": [
+      "https://www.youtube.com/watch?v=xIYwa9--Sso&t"
+    ],
+    "tags": [
+      "anime",
+      "watch",
+      "dress",
+      "bag"
+    ],
+    "categories": [
+      "Fashion"
+    ]
+  },
+  {
+    "id": "871935",
+    "name": "shirt",
+    "description": "Introducing the ultimate statement piece for those who take pride in their protective instincts: the \"I Am a Bodyguard\" T-shirt. Crafted from high-quality, breathable cotton, this shirt offers both comfort and durability, making it perfect for everyday wear or special occasions. The bold, eye-catching print not only showcases your role as a guardian but also sparks conversations and admiration from others. Whether you're on duty or off, this T-shirt is a stylish way to express your commitment to safety and security. Elevate your wardrobe and make a statement today!",
+    "price": 33,
+    "stock": 2,
+    "status": "Active",
+    "imageUrl": "http://localhost:5000/uploads/1755970455448-767094865.jpg",
+    "images": [
+      "http://localhost:5000/uploads/1755970455448-767094865.jpg"
+    ],
+    "videos": [],
+    "tags": [
+      "tshirt shirt",
+      "shirt",
+      "t-shirt"
+    ],
+    "categories": [
+      "Fashion"
+    ]
+  },
+  {
+    "id": "992308",
+    "name": "Elevate your wardrobe with our striking black and white t-shirt",
+    "description": "Elevate your wardrobe with our striking black and white t-shirt, designed to make a bold statement. Crafted from premium, breathable fabric, this shirt offers exceptional comfort and durability, perfect for everyday wear or special occasions. The eye-catching black and white design adds a contemporary flair, making it a versatile piece that pairs effortlessly with jeans, shorts, or skirts. Embrace style and sophistication with this must-have addition to your collection.",
+    "price": 43,
+    "stock": 84,
+    "status": "Active",
+    "imageUrl": "http://localhost:5000/uploads/1755970537422-38765020.jpg",
+    "images": [
+      "http://localhost:5000/uploads/1755970537422-38765020.jpg"
+    ],
+    "videos": [],
+    "tags": [
+      "tshirt",
+      "shirt",
+      "premium"
+    ],
+    "categories": [
+      "Fashion"
+    ]
+  },
+  {
+    "id": "597473",
+    "name": "the untamed spirit of the wilderness with Christian Dior Sauvage Eau de Toilette",
+    "description": "Experience the untamed spirit of the wilderness with Christian Dior Sauvage Eau de Toilette. This captivating fragrance opens with vibrant notes of bergamot and pepper, creating an exhilarating freshness that awakens the senses. The heart reveals a rich blend of ambroxan and woody accords, embodying a rugged elegance that is both powerful and refined. Perfect for the modern man who embraces adventure, Sauvage is a statement of confidence and sophistication, making it an essential addition to your fragrance collection. Indulge in the allure of Sauvage and let your presence be unforgettable.",
+    "price": 1999,
+    "stock": 67,
+    "status": "Active",
+    "imageUrl": "http://localhost:5000/uploads/1755970648055-279477377.png",
+    "images": [
+      "http://localhost:5000/uploads/1755970648055-279477377.png"
+    ],
+    "videos": [],
+    "tags": [
+      "perfium",
+      "sent",
+      "smeal",
+      "man"
+    ],
+    "categories": [
+      "Fashion"
+    ],
+    "maxBuyers": 1,
+    "maxPerPerson": null,
+    "previousPrice": 4000,
+    "tier": "Medium"
+  },
+  {
+    "id": "589497",
+    "name": "smart watch ",
+    "description": "adfa",
+    "price": 45,
+    "stock": 232,
+    "status": "Active",
+    "imageUrl": "http://localhost:5000/uploads/1755970739985-777120445.jpg",
+    "images": [
+      "http://localhost:5000/uploads/1755970739985-777120445.jpg"
+    ],
+    "videos": [],
+    "tags": [
+      "watch",
+      "smart watch",
+      "androin"
+    ],
+    "categories": [
+      "Fashion"
+    ]
+  },
+  {
+    "id": "281733",
+    "name": "smart watch",
+    "description": "watch",
+    "price": 23,
+    "stock": 23,
+    "status": "Active",
+    "imageUrl": "http://localhost:5000/uploads/1755970795467-36138503.jpg",
+    "images": [
+      "http://localhost:5000/uploads/1755970795467-36138503.jpg",
+      "http://localhost:5000/uploads/1755970816514-906949777.jpg"
+    ],
+    "videos": [],
+    "tags": [
+      "watch"
+    ],
+    "categories": [
+      "watch",
+      "Fashion"
+    ]
+  },
+  {
+    "id": "238887",
+    "name": "watch",
+    "description": "watch hasdl",
+    "price": 22,
+    "stock": 25,
+    "status": "Active",
+    "imageUrl": "http://localhost:5000/uploads/1755970871822-777501947.png",
+    "images": [
+      "http://localhost:5000/uploads/1755970871822-777501947.png"
+    ],
+    "videos": [],
+    "tags": [
+      "watch",
+      "girls",
+      "girls watch"
+    ],
+    "categories": [
+      "Fashion"
+    ]
+  },
+  {
+    "id": "939826",
+    "name": "girls watch",
+    "description": "askjfs",
+    "price": 23,
+    "stock": 5,
+    "status": "Active",
+    "imageUrl": "http://localhost:5000/uploads/1755970903684-547178884.webp",
+    "images": [
+      "http://localhost:5000/uploads/1755970903684-547178884.webp"
+    ],
+    "videos": [],
+    "tags": [
+      "girls watch",
+      "girls",
+      "watch"
+    ],
+    "categories": [
+      "Fashion"
+    ]
+  },
+  {
+    "id": "418107",
+    "name": "anime",
+    "description": "this is product ",
+    "price": 34,
+    "stock": 23,
+    "status": "Active",
+    "imageUrl": "http://localhost:5000/uploads/1755973659024-94355601.jpg",
+    "images": [
+      "http://localhost:5000/uploads/1755973659024-94355601.jpg"
+    ],
+    "videos": [],
+    "tags": [
+      "watch"
+    ],
+    "categories": [
+      "Food & Grocery"
+    ],
+    "maxBuyers": null,
+    "maxPerPerson": null,
+    "previousPrice": null,
+    "tier": "Cheap"
+  },
+  {
+    "id": "595394",
+    "name": "anime",
+    "description": "sfd",
+    "price": 999,
+    "stock": 19,
+    "status": "Active",
+    "imageUrl": "http://localhost:5000/uploads/1755975769125-145182595.jpg",
+    "images": [
+      "http://localhost:5000/uploads/1755975769125-145182595.jpg"
+    ],
+    "videos": [],
+    "tags": [
+      "watch",
+      "smart watch"
+    ],
+    "categories": [
+      "watch",
+      "Fashion"
+    ],
+    "maxBuyers": 9,
+    "maxPerPerson": 4,
+    "previousPrice": 1000,
+    "tier": "Premium"
+  },
+  {
+    "id": "151440",
+    "name": "Elevate your wardrobe with our striking black and white t-shirt",
+    "description": "Experience the untamed spirit of the wilderness with Christian Dior Sauvage Eau de Toilette. This captivating fragrance opens with vibrant notes of bergamot and pepper, creating an exhilarating freshness that awakens the senses. The heart reveals a rich blend of ambroxan and woody accords, embodying a rugged elegance that is both powerful and refined. Perfect for the modern man who embraces adventure, Sauvage is a statement of confidence and sophistication, making it an essential addition to your fragrance collection. Indulge in the allure of Sauvage and let your presence be unforgettable.\n\n",
+    "price": 299,
+    "stock": 50,
+    "status": "Active",
+    "imageUrl": "http://localhost:5000/uploads/1757191527882-422155223.png",
+    "images": [
+      "http://localhost:5000/uploads/1757191527882-422155223.png"
+    ],
+    "videos": [],
+    "tags": [],
+    "categories": [
+      "Electronics",
+      "Food & Grocery",
+      "Toys & Games",
+      "Books",
+      "Home & Garden"
+    ],
+    "maxBuyers": 0,
+    "maxPerPerson": 1,
+    "previousPrice": 459,
+    "tier": "Medium"
+  }
+]

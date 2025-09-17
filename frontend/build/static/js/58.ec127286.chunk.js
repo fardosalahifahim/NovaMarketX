@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkanimespring=self.webpackChunkanimespring||[]).push([[58],{4058:(s,e,i)=>{i.r(e),i.d(e,{default:()=>a});i(5043);var h=i(579);const a=()=>(0,h.jsxs)("div",{style:{padding:"20px"},children:[(0,h.jsx)("h2",{children:"Wishlist Page"}),(0,h.jsx)("p",{children:"This is a placeholder for the Wishlist page."})]})}}]);
+//# sourceMappingURL=58.ec127286.chunk.js.map

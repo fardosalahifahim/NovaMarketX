@@ -1,0 +1,53 @@
+[
+  {
+    "id": 11,
+    "message": "Rolex GMT-Master II \"Pepsi\" 126710BLRO – Oystersteel Jubilee Bracelet added to favorites",
+    "type": "success",
+    "timestamp": "2025-09-10T01:22:14.521Z",
+    "userId": "user_1757467307977_hr3d62scf"
+  },
+  {
+    "id": 24,
+    "message": "Order #41 has been confirmed",
+    "type": "success",
+    "timestamp": "2025-09-10T02:13:41.214Z",
+    "userId": "no1cOZZhD1RChRPI1IH5FmiVIm03",
+    "category": "orders",
+    "priority": "medium",
+    "persistent": false
+  },
+  {
+    "id": 25,
+    "message": "Order #35 is on the way",
+    "type": "info",
+    "timestamp": "2025-09-10T02:13:59.301Z",
+    "userId": "no1cOZZhD1RChRPI1IH5FmiVIm03",
+    "category": "orders",
+    "priority": "medium",
+    "persistent": false
+  },
+  {
+    "id": 26,
+    "message": "Order #49 has been confirmed",
+    "type": "success",
+    "timestamp": "2025-09-13T19:34:50.474Z",
+    "userId": "no1cOZZhD1RChRPI1IH5FmiVIm03",
+    "category": "orders",
+    "priority": "medium",
+    "persistent": false
+  },
+  {
+    "id": 27,
+    "message": "anime added to favorites",
+    "type": "success",
+    "timestamp": "2025-09-17T21:41:22.985Z",
+    "userId": "user_1757460473576_dvm30jd40"
+  },
+  {
+    "id": 28,
+    "message": "anime removed from favorites",
+    "type": "info",
+    "timestamp": "2025-09-17T21:41:23.591Z",
+    "userId": "user_1757460473576_dvm30jd40"
+  }
+]

@@ -1,0 +1,360 @@
+/* Premium Phone styles for ProductDetailsPhone component - Orange Theme */
+
+.product-details-phone-container {
+  padding: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #fff5e6, #ffe4cc);
+  color: #333;
+  min-height: 100vh;
+}
+
+.phone-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 10px;
+  background: linear-gradient(135deg, #ff8c00, #ffa500);
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(255, 140, 0, 0.3);
+}
+
+.back-button {
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  color: #ff8c00;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.phone-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.phone-image-gallery {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.main-image-container-phone {
+  width: 100%;
+  height: 320px;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #ffa500, #ff8c00);
+  box-shadow: 0 8px 25px rgba(255, 140, 0, 0.4);
+}
+
+.main-product-image-phone {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nav-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.9);
+  color: #ff8c00;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 50%;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.prev-button {
+  left: 15px;
+}
+
+.next-button {
+  right: 15px;
+}
+
+.image-indicators {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  gap: 8px;
+}
+
+.indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #ccc;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.indicator.active {
+  background: #ff8c00;
+  transform: scale(1.2);
+}
+
+.phone-product-info {
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 6px 20px rgba(255, 140, 0, 0.2);
+  margin-bottom: 80px;
+}
+
+.phone-product-name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+  text-align: center;
+  color: #ff8c00;
+}
+
+.phone-product-description {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 18px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.phone-product-price {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #ff8c00;
+  text-shadow: 0 2px 4px rgba(255, 140, 0, 0.2);
+}
+
+.phone-product-colors,
+.phone-product-sizes,
+.phone-product-quantity {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.phone-product-colors strong,
+.phone-product-sizes strong,
+.phone-product-quantity strong {
+  display: block;
+  margin-bottom: 10px;
+  color: #ff8c00;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.phone-color-options,
+.phone-size-options {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.phone-color-circle {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 3px solid transparent;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.phone-color-circle.selected {
+  border-color: #ff8c00;
+  transform: scale(1.15);
+  box-shadow: 0 4px 12px rgba(255, 140, 0, 0.4);
+}
+
+.phone-size-button {
+  padding: 10px 16px;
+  border: 2px solid #ddd;
+  background: white;
+  color: #333;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  font-weight: 600;
+  min-width: 50px;
+}
+
+.phone-size-button.selected {
+  background: linear-gradient(135deg, #ff8c00, #ffa500);
+  color: white;
+  border-color: #ff8c00;
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(255, 140, 0, 0.3);
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.quantity-controls button {
+  background: linear-gradient(135deg, #ff8c00, #ffa500);
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.phone-quantity-input {
+  width: 70px;
+  padding: 10px;
+  font-size: 1.1rem;
+  border: 2px solid #ff8c00;
+  background: white;
+  color: #333;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.phone-action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 25px;
+  position: fixed;
+  bottom: 90px;
+  left: 15px;
+  right: 15px;
+  z-index: 1000;
+}
+
+.phone-add-to-cart-button,
+.phone-buy-now-button {
+  padding: 16px;
+  font-size: 1.2rem;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 700;
+  border: none;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.phone-add-to-cart-button {
+  background: linear-gradient(135deg, #ff8c00, #ffa500);
+  color: white;
+}
+
+.phone-add-to-cart-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(255, 140, 0, 0.4);
+}
+
+.phone-buy-now-button {
+  background: linear-gradient(135deg, #28a745, #20c997);
+  color: white;
+}
+
+.phone-buy-now-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(40, 167, 69, 0.4);
+}
+
+.phone-additional-info {
+  margin-top: 25px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.info-item {
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  padding: 12px;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  color: #666;
+  font-weight: 600;
+}
+
+/* Video Thumbnails */
+.video-thumbnails-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.video-thumbnail {
+  width: 80px;
+  height: 60px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.video-thumbnail:hover {
+  transform: scale(1.1);
+  border-color: #ff8c00;
+  box-shadow: 0 4px 12px rgba(255, 140, 0, 0.4);
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .phone-product-name {
+    font-size: 1.6rem;
+  }
+  
+  .phone-product-price {
+    font-size: 1.8rem;
+  }
+  
+  .main-image-container-phone {
+    height: 280px;
+  }
+  
+  .phone-color-circle {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .phone-size-button {
+    padding: 8px 14px;
+    min-width: 45px;
+    font-size: 0.9rem;
+  }
+  
+  .phone-action-buttons {
+    bottom: 80px;
+  }
+  
+  .video-thumbnail {
+    width: 70px;
+    height: 52px;
+  }
+}
+
+/* Loading state */
+.mobile-loading {
+  text-align: center;
+  padding: 50px;
+  font-size: 1.2rem;
+  color: #ff8c00;
+  font-weight: 600;
+}

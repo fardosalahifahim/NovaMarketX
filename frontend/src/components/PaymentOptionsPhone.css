@@ -1,0 +1,22 @@
+.profile-section.payment-options {
+  padding: 15px;
+  background: linear-gradient(135deg, #ffe5b4, #ffcc80);
+  border-radius: 20px;
+  color: #663300;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 12px rgba(255, 204, 128, 0.5);
+}
+
+.profile-section.payment-options h3 {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 1.2em;
+  color: #663300;
+  text-shadow: 0 0 5px rgba(255, 204, 128, 0.8);
+}
+
+.profile-section.payment-options p {
+  font-size: 1em;
+  color: #996633;
+  line-height: 1.4;
+}

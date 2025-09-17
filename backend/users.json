@@ -1,0 +1,47 @@
+[
+  {
+    "id": 2,
+    "username": "MD. Fahim",
+    "email": "fahim.student106@gmail.com",
+    "phone": "01790162008",
+    "password": "123456",
+    "emailVerified": false,
+    "uid": "28d3c1e0be6e945cfa241484fa67d6f9"
+  },
+  {
+    "id": 3,
+    "username": "Faridpur High School",
+    "email": "mail.fhs.sup@gmail.com",
+    "uid": "OVE8EAfDZWYs6pIOmdN34MeHTxU2",
+    "emailVerified": true,
+    "phone": "",
+    "password": ""
+  },
+  {
+    "id": 4,
+    "username": "Anime spring",
+    "email": "animesprig@gmail.com",
+    "uid": "h1DKdeAmj3YqjrAK0oiTAWXtVGq2",
+    "emailVerified": true,
+    "phone": "",
+    "password": ""
+  },
+  {
+    "id": 5,
+    "username": "Fardos Alahi Fahim",
+    "email": "fardosalahifahim@gmail.com",
+    "phone": "01790162008",
+    "password": "123456",
+    "emailVerified": false,
+    "uid": "276fd831851356c4487ce908ecddef00"
+  },
+  {
+    "id": 6,
+    "username": "Raisa rahman",
+    "email": "raisarahman.facebook@gmail.com",
+    "uid": "3EqVjeOevTgBOxzmNFq0I5vygES2",
+    "emailVerified": true,
+    "phone": "",
+    "password": ""
+  }
+]

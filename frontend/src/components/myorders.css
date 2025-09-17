@@ -1,0 +1,328 @@
+/* Confirmed Orders CSS - Professional Black Theme */
+
+.profile-section {
+  padding: 20px;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  border-radius: 12px;
+  margin: 20px 0;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+}
+
+.orders-section h1 {
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.filter-container {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter-container label {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.filter-container select {
+  padding: 8px 12px;
+  border: 1px solid #555;
+  border-radius: 6px;
+  background: #333;
+  color: #ffffff;
+  font-size: 14px;
+  min-width: 150px;
+}
+
+.filter-container select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.orders-table-container {
+  overflow: auto;
+  max-height: 70vh;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  padding: 15px;
+  backdrop-filter: blur(10px);
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.orders-table th {
+  background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+  color: #ffffff;
+  padding: 15px 10px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 14px;
+  border-bottom: 2px solid #0056b3;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.orders-table th[data-label="Products"] { width: 20%; }
+.orders-table th[data-label="Shipping Details"] { width: 25%; }
+.orders-table th[data-label="Order ID"] { width: 6%; }
+.orders-table th[data-label="Status"] { width: 6%; }
+.orders-table th[data-label="Items & Total"] { width: 8%; }
+.orders-table th[data-label="Payment Method"] { width: 8%; }
+.orders-table th[data-label="Actions"] { width: 12%; }
+
+.orders-table td {
+  padding: 15px 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  vertical-align: top;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.order-table-row {
+  transition: all 0.3s ease;
+}
+
+.order-table-row:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.beautiful-row {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.canceled-row {
+  background: rgba(220, 53, 69, 0.1);
+  border-left: 4px solid #dc3545;
+}
+
+.delivered-row {
+  background: rgba(40, 167, 69, 0.1);
+  border-left: 4px solid #28a745;
+}
+
+/* Product List Styling */
+.product-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.product-list-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.product-list-item:last-child {
+  border-bottom: none;
+}
+
+.product-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.product-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.product-name {
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 4px;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.product-id {
+  font-size: 12px;
+  color: #cccccc;
+  margin-bottom: 2px;
+}
+
+.product-price {
+  font-size: 12px;
+  color: #ffd700;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.product-quantity {
+  font-size: 12px;
+  color: #cccccc;
+}
+
+/* Shipping Details */
+.shipping-details {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.shipping-details div {
+  margin-bottom: 4px;
+}
+
+.shipping-details div:last-child {
+  margin-bottom: 0;
+}
+
+.shipping-details strong {
+  color: #007bff;
+}
+
+/* Status Styling */
+.status-canceled {
+  color: #dc3545;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.status-delivered {
+  color: #28a745;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+/* Button Styling */
+.beautiful-btn {
+  background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-right: 8px;
+}
+
+.beautiful-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+}
+
+.btn-cancel {
+  background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
+}
+
+.btn-cancel:hover {
+  background: linear-gradient(135deg, #c82333 0%, #a02622 100%);
+  box-shadow: 0 4px 15px rgba(220, 53, 69, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .orders-table {
+    font-size: 12px;
+  }
+
+  .orders-table th,
+  .orders-table td {
+    padding: 8px 5px;
+  }
+
+  .product-list-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .product-image {
+    width: 40px;
+    height: 40px;
+  }
+
+  .shipping-details {
+    font-size: 11px;
+  }
+
+  .filter-container {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .filter-container select {
+    width: 100%;
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-section {
+    padding: 15px;
+    margin: 10px 0;
+  }
+
+  .orders-section h1 {
+    font-size: 1.5rem;
+  }
+
+  .orders-table-container {
+    padding: 10px;
+  }
+
+  .orders-table th[data-label="Products"] { width: 25%; }
+  .orders-table th[data-label="Shipping Details"] { width: 30%; }
+  .orders-table th[data-label="Order ID"] { width: 8%; }
+  .orders-table th[data-label="Status"] { width: 8%; }
+  .orders-table th[data-label="Items & Total"] { width: 10%; }
+  .orders-table th[data-label="Payment Method"] { width: 10%; }
+  .orders-table th[data-label="Actions"] { width: 15%; }
+}
+
+/* Loading and Empty States */
+.profile-section p {
+  text-align: center;
+  color: #cccccc;
+  font-size: 16px;
+  padding: 40px 20px;
+}
+
+/* Scrollbar Styling */
+.orders-table-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.orders-table-container::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+.orders-table-container::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+  border-radius: 4px;
+}
+
+.orders-table-container::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #0056b3 0%, #004085 100%);
+}

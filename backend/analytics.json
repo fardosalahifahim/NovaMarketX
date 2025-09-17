@@ -1,0 +1,43 @@
+{
+  "locationStats": {
+    "Faridpur": 18,
+    "Dhaka": 29,
+    "faridpur": 1,
+    "sdfg": 1
+  },
+  "productStats": {
+    "114124": 25,
+    "151440": 4,
+    "157341": 2,
+    "238887": 1,
+    "328502": 110,
+    "461830": 9,
+    "563687": 8,
+    "595394": 2,
+    "597473": 1,
+    "701196": 5,
+    "860227": 9,
+    "871935": 2,
+    "887162": 2,
+    "965771": 157
+  },
+  "categoryStats": {
+    "Fashion": 333,
+    "Electronics": 4,
+    "Food & Grocery": 4,
+    "Toys & Games": 4,
+    "Books": 4,
+    "Home & Garden": 4,
+    "watch": 2
+  },
+  "searchStats": {
+    "anime": 15,
+    "bag": 3,
+    "dress": 2,
+    "rolex": 1
+  },
+  "searchLocationStats": {
+    "Faridpur": 12,
+    "Dhaka": 8
+  }
+}

@@ -1,0 +1,94 @@
+.address-card {
+  background: #ffffff;
+  padding: 20px 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 420px;
+  margin: 20px auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  transition: box-shadow 0.3s ease;
+}
+
+.address-card:hover {
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+.address-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.address-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 4px;
+  color: #444;
+}
+
+.address-form input,
+.address-form textarea {
+  padding: 10px 12px;
+  font-size: 15px;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+}
+
+.address-form input:focus,
+.address-form textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0,123,255,0.4);
+  outline: none;
+}
+
+.address-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.address-form-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+  justify-content: flex-end;
+}
+
+.address-form-buttons button {
+  padding: 10px 22px;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.address-form-buttons button[type="submit"] {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  box-shadow: 0 4px 8px rgba(0,123,255,0.4);
+}
+
+.address-form-buttons button[type="submit"]:hover {
+  background: linear-gradient(135deg, #0056b3, #003d80);
+  box-shadow: 0 6px 12px rgba(0,86,179,0.6);
+}
+
+.address-form-buttons button[type="button"] {
+  background: #6c757d;
+  color: white;
+  box-shadow: 0 4px 8px rgba(108,117,125,0.4);
+}
+
+.address-form-buttons button[type="button"]:hover {
+  background: #5a6268;
+  box-shadow: 0 6px 12px rgba(90,98,104,0.6);
+}

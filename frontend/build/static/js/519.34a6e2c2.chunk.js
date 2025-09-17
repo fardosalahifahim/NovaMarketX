@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkanimespring=self.webpackChunkanimespring||[]).push([[519],{7519:(e,s,a)=>{a.r(s),a.d(s,{default:()=>i});a(5043);var h=a(579);const i=()=>(0,h.jsxs)("div",{style:{padding:"20px"},children:[(0,h.jsx)("h2",{children:"Chat Page"}),(0,h.jsx)("p",{children:"This is a placeholder for the Chat page."})]})}}]);
+//# sourceMappingURL=519.34a6e2c2.chunk.js.map
